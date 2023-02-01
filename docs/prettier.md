@@ -1,0 +1,7 @@
+# Prettier than this
+
+I just, I like to feel vital and alive. And I like to feel an intimacy with the world with people. The Buddhist principle is that we're surrounded by zillions of Buddhas, but they can't have any contact with you because you're not open to them. But if you ever opened up, it's all there. Everything here was built for the moment, for the experience, for the... 
+
+I didn't know what I'm doing. I built this house. I'd never built a house before. I don't know what I'm doing. It just seemed like a trippy thing to do at the time. Evolution is a process of iteration. There's no plan. There's no master plan. It's in each moment of what happens. My life is a process of iteration. You know, I don't, I was never smart enough or filled with delve enough to have a plan for my life. So there's nothing to accomplish. 
+
+What's going to happen after me to this, I presume it just goes back to the jungle because who in the world would do this kind of work? What an incredible thing that you could have this much beauty. If you wanted to buy a Van Gogh, it's going to cost you a hundred million dollars. Is it really prettier than this? The mathematics that the universe is designed on is beautiful. If you can see the beauty in every being then you can appreciate and love every being. We humans are drowning in a sea of things. Complexities, stress, ideas. Complexity has been woven into the fabric of our soul. Just play, just be. Jump in with love, swim into this, saying a whole new prayer.

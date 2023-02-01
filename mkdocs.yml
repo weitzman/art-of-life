@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Art of life - lyrics
+theme:
+  name: material
+markdown_extensions:
+  - abbr
+  - attr_list
+  - pymdownx.snippets
+
+
