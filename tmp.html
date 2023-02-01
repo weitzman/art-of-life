@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Floating UI Tutorial</title>
+    <style>
+        #tooltip {
+            width: max-content;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #222;
+            color: white;
+            font-weight: bold;
+            padding: 5px;
+            border-radius: 4px;
+            font-size: 90%;
+        }
+    </style>
+<!--    <script src="https://cdn.jsdelivr.net/npm/@floating-ui/core@1.1.0"></script>-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.1.0"></script>-->
+    <script>
+
+    </script>
+</head>
+<body>
+<button id="button" aria-describedby="tooltip">
+    My button
+</button>
+<div id="tooltip" role="tooltip">
+    Oh no, we now have the same problem as before,
+</div>
+
+<script type="module">
+    import {
+        computePosition,
+        flip,
+        shift,
+    } from 'https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.1.0/+esm';
+
+    const button = document.querySelector('#button');
+    const tooltip = document.querySelector('#tooltip');
+
+    computePosition(button, tooltip, {
+        placement: 'top',
+        middleware: [
+            offset(6),
+            flip(),
+            shift({padding: 5}),
+            arrow({element: arrowElement}),
+        ],
+    }).then(({x, y, placement, middlewareData}) => {
+        Object.assign(tooltip.style, {
+            left: `${x}px`,
+            top: `${y}px`,
+        });
+
+        // Accessing the data
+        const {x: arrowX, y: arrowY} = middlewareData.arrow;
+
+        const staticSide = {
+            top: 'bottom',
+            right: 'left',
+            bottom: 'top',
+            left: 'right',
+        }[placement.split('-')[0]];
+
+        Object.assign(arrowElement.style, {
+            left: arrowX != null ? `${arrowX}px` : '',
+            top: arrowY != null ? `${arrowY}px` : '',
+            right: '',
+            bottom: '',
+            [staticSide]: '-4px',
+        });
+    });
+</script>
+</body>
+</html>
