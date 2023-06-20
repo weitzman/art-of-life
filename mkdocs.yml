@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Art of life
-repo_url: github.com/weitzman/art-of-life/
+repo_url: https://github.com/weitzman/art-of-life/
 theme:
   name: material
 markdown_extensions:
